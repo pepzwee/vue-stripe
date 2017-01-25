@@ -3,11 +3,11 @@
         <input type="hidden" name="stripeToken" v-model="stripeToken">
         <input type="hidden" name="stripeEmail" v-model="stripeEmail">
 
-        <button @click.prevent="purchase()"
-                class="btn btn-primary btn-stripe-checkout"
+        <a @click.prevent="purchase()"
+                class="btn default stripe"
                 :disabled="!loaded">
             {{ button }}
-        </button>
+        </a>
     </div>
 </template>
 
