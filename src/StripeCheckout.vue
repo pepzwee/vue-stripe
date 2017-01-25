@@ -5,8 +5,7 @@
 
         <a @click.prevent="purchase()"
                 class="btn default stripe"
-                :disabled="!loaded">
-            {{ button }}
+                :disabled="!loaded" v-html="button">
         </a>
     </div>
 </template>
