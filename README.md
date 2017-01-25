@@ -1,3 +1,7 @@
+# PS!
+
+This package defaults to ``dist`` folder instead of ``src`` like the owners package. Also the button has different HTML to suit my needs.
+
 # Vue Stripe
 
 This package provides a convenient wrapper around Stripe's [checkout component](https://stripe.com/checkout) for vue.js 2
